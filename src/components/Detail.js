@@ -26,23 +26,11 @@ function Detail() {
           <img src='/images/group-icon.png' />
         </GroupWatchButton>
       </Controls>
-      <SubTitle>
-        dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk
-        dfsksdkfsdljkdf
-      </SubTitle>
+      <SubTitle>2018 • 7m • Family, Fantasty, Kids, Animation</SubTitle>
       <Description>
-        sksdkfsdljk dfsksdkfsdljkdfsksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk sksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljk dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk
-        sksdkfsdljk dfsksdkfsdljkdfsksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk sksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljk dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk
-        sksdkfsdljk dfsksdkfsdljkdfsksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk sksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljk dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk
-        sksdkfsdljk dfsksdkfsdljkdfsksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk sksdkfsdljk
-        dfsksdkfsdljkdfsksdkfsdljk dfsksdkfsdljkdfsksdkfsdljkdfsksdkfsdljk
+        A Chinese mom who's sad when her grown son leaves home gets another
+        chance at motherhood when one of her dumplings springs to life. But she
+        finds that nothing stays cute and small forever.
       </Description>
     </Container>
   )
@@ -77,6 +65,7 @@ const ImageTitle = styled.div`
   min-heiht: 170px;
   width: 35vw;
   min-width: 200px;
+  margin-top: 60px;
 
   img {
     width: 100%;
@@ -149,4 +138,5 @@ const Description = styled.div`
   line-height: 1.4;
   font-size: 20px;
   margin-top: 16px;
+  max-width: 760px;
 `

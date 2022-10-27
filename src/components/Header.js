@@ -1,37 +1,37 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 
 function Header() {
   return (
     <Nav>
-      <Logo src='/images/logo.svg' />
+      <Logo src="/images/logo.svg" />
       <NavMenu>
         <a>
-          <img src='/images/home-icon.svg' />
+          <img src="/images/home-icon.svg" />
           <span>HOME</span>
         </a>
         <a>
-          <img src='/images/search-icon.svg' />
+          <img src="/images/search-icon.svg" />
           <span>SEARCH</span>
         </a>
         <a>
-          <img src='/images/watchlist-icon.svg' />
+          <img src="/images/watchlist-icon.svg" />
           <span>WATCHLIST</span>
         </a>
         <a>
-          <img src='/images/original-icon.svg' />
+          <img src="/images/original-icon.svg" />
           <span>ORIGINALS</span>
         </a>
         <a>
-          <img src='/images/movie-icon.svg' />
+          <img src="/images/movie-icon.svg" />
           <span>MOVIES</span>
         </a>
         <a>
-          <img src='/images/series-icon.svg' />
+          <img src="/images/series-icon.svg" />
           <span>SERIES</span>
         </a>
       </NavMenu>
-      <UserImg src='https://i.guim.co.uk/img/media/88f6b98714035656cb18fb282507b60e82edb0d7/0_57_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&fit=max&s=2bea9b176c9243144595bc4b79e9ab1b' />
+      <UserImg src="https://i.guim.co.uk/img/media/88f6b98714035656cb18fb282507b60e82edb0d7/0_57_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&fit=max&s=2bea9b176c9243144595bc4b79e9ab1b" />
     </Nav>
   )
 }

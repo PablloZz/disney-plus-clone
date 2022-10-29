@@ -17,6 +17,7 @@ function Home() {
       })
       dispatch(setMovies(tempMovies))
     })
+    // eslint-disable-next-line
   }, [])
 
   return (
